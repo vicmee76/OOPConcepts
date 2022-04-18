@@ -26,6 +26,11 @@ namespace OOPConcepts
             Console.WriteLine(load.AddNums(908, 6876));
             Console.WriteLine(load.AddNums(5.2, 6.5));
             Console.WriteLine(load.AddNums("My", "Name", "Is"));
+            load.SayMyName();
+
+            MethodOverridding over = new MethodOverridding();
+            over.SayMyName();
+
 
         }
     }

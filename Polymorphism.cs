@@ -23,6 +23,22 @@ namespace OOPConcepts
             {
                 return a + b + c;
             }
+
+
+            public virtual void SayMyName()
+            {
+                Console.WriteLine("My name is Victor");
+            }
+        }
+
+
+        public class MethodOverridding : MethodOverLoading
+        {
+            public override void SayMyName()
+            {
+                Console.WriteLine("My name is James");
+            }
+
         }
 
     }
